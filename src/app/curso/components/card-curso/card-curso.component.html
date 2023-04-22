@@ -23,7 +23,7 @@
           <mat-card-title>{{ curso.nombre | uppercase }}</mat-card-title>
           <mat-card-subtitle>{{ curso.comision }}</mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image src="../../../../assets/cursoCard.jpg">
+        <img mat-card-image src="./assets/cursoCard.jpg">
         <mat-card-content>
           <p>Dictado por: {{ curso.profesor.nombre}}</p>
           <p> Inscripcion {{ curso.inscripcionAbierta | booleanTransform: 'Abierta':'Cerrada' }}</p>
